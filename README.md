@@ -11,4 +11,6 @@ You are provided with an anonymized dataset containing numeric feature variables
 The task is to predict the value of target column in the test set.
 File descriptions
 train.csv - the training set.
+# Evaluation metric
+Because the response variable is highly inbalanced, AUC_ROC score is been used.
 
